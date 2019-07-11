@@ -9,7 +9,7 @@ import os
 print('\nGoogle Timeline Data Parser')
 
 # Define path and file names
-path = 'E:/Career/Data Science/Projects/Workshop/Google Timeline/Raw Data/'
+path = 'E:/Career/Data Science/Projects/Google Timeline/Raw Data/'
 file = 'Location History 20190103'
 
 # Extract .json file from the zip archive
