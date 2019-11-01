@@ -10,7 +10,7 @@ print('\nGoogle Timeline Data Parser')
 
 # Define path and file names
 path = 'E:/Career/Data Science/Projects/Google Timeline/Raw Data/'
-file = 'Location History 20190103'
+file = 'Location History'
 
 # Extract .json file from the zip archive
 with zipfile.ZipFile(path + file + '.zip') as zf:
@@ -35,7 +35,7 @@ if 'verticalAccuracy' in columns:
     columns.remove('verticalAccuracy')
 
 # Create .csv file for writing records
-fn_path = '../Parsed Data/'
+fn_path = './Parsed Data/'
 fn = 'timeline_data.csv'
 w = open(fn_path + fn, 'w', newline = '')
 write = csv.writer(w)
