@@ -1,4 +1,0 @@
-
-- Calculate descriptive statistics for various fields
-- Create bar charts by the countries visited
-- Visualize latitude/longitude on the map
