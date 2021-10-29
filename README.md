@@ -8,7 +8,7 @@ Data was manually extracted from personal Google account as .json file, then zip
 The parsing code was written to grab data from this folder, parse necessary fields and write them to .csv file.
 
 The timeline_data.csv file was created on data/parsed/ folder, containing the following data fields:
-- counter
+- id
 - timestampMs
 - latitudeE7
 - longitudeE7
